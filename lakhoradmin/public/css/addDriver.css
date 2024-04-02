@@ -1,0 +1,129 @@
+*{
+    scroll-behavior: smooth;
+}
+#add_driver_form{
+    /* border: 1px solid red; */
+    margin-block: 20px;
+    padding:20px;
+}
+.title{
+    font-weight: 600;
+    font-size: large;
+}
+.genderlabel{
+    color: gray;
+    font-size: small;
+}
+#gender{
+    margin-bottom: 15px;
+}
+#infotable{
+    margin-top: 10px;
+}
+#herobanner{
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #141414;
+}
+#herotitle{
+    font-size:70px;
+    line-height: 100px;
+    text-align: left;
+    color: white;
+    /* border: 1px solid red; */
+}
+#title2{
+    font-size:70px;
+    line-height: 100px;
+    text-align: left;
+    color: #333;
+}
+#subtitle2{
+    text-align: left;
+    color: #333;
+}
+#subtitle{
+    /* border: 1px solid red; */
+    text-align: left;
+    color: white;
+}
+.login{
+    border: 1px solid black;
+    padding-block: 5px;
+    padding-inline: 20px;
+    border-radius: 5px;
+    background-color:#333;
+    color: white;
+}
+
+#logo{
+    color: white;
+}
+
+.checkPriceForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.checkPriceForm input{
+    margin-block: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+.checkPriceForm button{
+    border: 1px solid white;
+    padding-block: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-block: 10px;
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+
+    #herotitle{
+        font-size:40px;
+        line-height: 70px;
+        text-align: center;
+        color: white;
+        /* border: 1px solid red; */
+    }
+    #subtitle{
+        /* border: 1px solid red; */
+        text-align: center;
+        color: white;
+    }
+    .checkPriceForm input{
+        margin-block: 10px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    #herobanner{
+        /* border: 1px solid red; */
+        height: 150vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-color: #141414;
+    }
+    .checkPriceForm button{
+        border: 1px solid white;
+        padding-block: 5px;
+        color: white;
+        border-radius: 5px;
+        margin-block: 10px;
+        width: 100%;
+    }
+    #title2{
+        font-size:40px;
+        line-height: 70px;
+        text-align: center;
+        color: #333;
+    }
+
+
+}
+
